@@ -190,4 +190,46 @@
   padding: 20px;
   font-weight: 400;
 }
+/* solution-section  */
+.solution-content{
+    display: flex;
+    margin: 40px 120px;
+    gap: 60px;
+}
+.nkowlage img{
+    width: 600px;
+}
+.solution-title{
+    color: #469165;
+    font-size: 16px;
+}
+.solution-paragraph{
+    width: 40%;
+    text-align: left;
+    margin: 0 auto;
+}
+.solution-heding{
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #001931;
+}
+.solution-text{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.sotlution-list li{
+    list-style: none;
+    line-height: 40px;
+    color: #001931;
+}
+.sotlution-list img{
+    /* display: inline-block; */
+    padding: 2px;
+}
+
 
