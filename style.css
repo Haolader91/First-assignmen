@@ -198,6 +198,7 @@
 }
 .nkowlage img{
     width: 600px;
+    margin-left: 100px;
 }
 .solution-title{
     color: #469165;
@@ -230,6 +231,46 @@
 .sotlution-list img{
     /* display: inline-block; */
     padding: 2px;
+    margin: 0 auto;
 }
-
+/* footer section  */
+#footer-section{
+    background-color: #001931;
+    color: #ffffff;
+    padding: 40px 200px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.footer-logo img{
+    display: flex;
+    align-items: center;
+}
+.footer-social h3{
+    margin-bottom: 15px;
+    font-size: 20px;
+    text-align: center;
+}
+.icons{
+    display: flex;
+    gap: 15px;
+}
+.icons a {
+    display: flex;
+    color: #001931;
+    background: #fff;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.footer-bottom{
+    text-align: center;
+}
 
