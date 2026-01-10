@@ -4,12 +4,12 @@
     box-sizing: border-box;
 }
 /* all body font use  */
-
 .inter-font{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
 /* shear button use  */
+
 .btn button{
     background-color: #30B868;
     border: none;
@@ -20,6 +20,12 @@
     cursor: pointer;
     font-size: 16px;
 }
+.btn button:hover{
+    background-color: #001931;
+    box-shadow: 2px 4px 0px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+}
+
 /* navigation-bar section  */
 .navigation-bar{
     max-width: 1920px;
@@ -272,5 +278,46 @@
 }
 .footer-bottom{
     text-align: center;
+}
+
+/* challange section  */
+#challenge{
+    padding: 60px 20px;
+    /* background-color: #F7F6F2; */
+    display: flex;
+    justify-content: center;
+    /* margin: 0 150px; */
+    border-radius: 5px;
+}
+.challenge-content {
+    background-color: #F7F6F2;
+    padding: 60px 40px;
+    margin: 0px 150px;
+    border-radius: 15px;
+    text-align: center;
+    /* max-width: 900px; */
+    width: 100%;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+.challenge-title{
+    font-size: 50px;
+    font-weight: bold;
+    /* line-height: 84px; */
+    align-items: center;
+    color: #001931;
+    justify-content: center;
+    text-transform: capitalize;
+}
+.challenge-text{
+    width: 700px;
+    text-align: center;
+    /* width: 500px; */
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight: 300;
+    color: #627382;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    line-height: 34px;
 }
 
